@@ -13,6 +13,31 @@ body {
     background-color: #000000;
 }
 
+.heading-1 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+.heading-1 span {
+    color: #96fc04;
+}
+
+.heading-2 {
+    font-size: 26px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading-2 span {
+    color: #96fc04;
+}
+
 /* navigation style */
 .nav {
     position: fixed;
@@ -20,7 +45,7 @@ body {
     left: 0;
     right: 0;
     background-color: #000000;
-    padding: 15px 20px;
+    padding: 12px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +64,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 38px;
 }
 
 .nav__list {
@@ -68,7 +93,7 @@ body {
 .nav__button {
     background-color: #1a1a1a;
     color: #96fc04;
-    font-weight: 600;
+    font-weight: 700;
     padding: 12px 24px;
     border: none;
     border-radius: 20px;
@@ -81,19 +106,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.heading-1 {
-    font-size: 35px;
-    font-weight: 800;
-    color: #fff;
-    text-align: center;
-    margin-top: 200px;
-    margin-bottom: 20px;
-}
-
-.heading-1 span {
-    color: #96fc04;
 }
 
 .header__subheader {
@@ -121,4 +133,40 @@ body {
 
 .header__hero-image {
     width: 800px;
+}
+
+/* sponsors */
+.sponsors {
+    padding: 50px 200px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sponsor {
+    width: 100px;
+}
+
+.sponsors span {
+    color: #999;
+    display: block;
+    font-weight: 800;
+    font-size: 20px;
+    display: block;
+}
+
+/* statistic */
+.statistic {
+    padding: 80px 180px;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistic__image {
+    margin-top: 50px;
+    width: 950px;
 }
