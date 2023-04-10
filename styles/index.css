@@ -60,6 +60,7 @@ svg {
 
 /* navigation style */
 .nav {
+    z-index: 99999;
     position: fixed;
     top: 0;
     left: 0;
@@ -430,8 +431,9 @@ footer > .footer-col1, .footer-col2{
 }
 
 .footer-col1 > p{
-    color: #9D9D9D;
+    color: #777;
     font-size: 14px;
+    font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 24px;
 }
@@ -441,21 +443,21 @@ footer > .footer-col1, .footer-col2{
 }
 
 .footer-col1 > ul > li{
-    color: #aeaeae;
-    font-size: 14px;
+    color: #eaeaea;
+    font-size: 12px;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
 }
 
 .footer-col2 > ul > li{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 24px;
     text-decoration: none;
 }
 
-.footer-col2 > ul > li > a{
+.footer-col2 > ul > li > a {
     text-decoration: none;
     color: #9D9D9D;
 }
@@ -466,13 +468,20 @@ footer > .footer-col1, .footer-col2{
     margin-bottom: 12px;
 }
 
-.footer-col3 > span > img{
+.footer-col3 > span > img {
     margin-right: 12px;
 }
 
-.footer-col3 > ul > li{
+.footer-col3 > ul > li {
     color: var(--white-color);
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 12px;
+}
+
+.footer-col3 > ul > li > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
 }
