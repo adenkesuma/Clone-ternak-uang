@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Blaka&family=Fraunces:opsz,wght@9..144,100;9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=Ibarra+Real+Nova:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=La+Belle+Aurore&family=Luckiest+Guy&family=Montserrat:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+KR:wght@300&family=Nunito:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Press+Start+2P&family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&family=Silkscreen:wght@400;700&family=Smooch&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Ubuntu:wght@300;400;500;700&family=Vujahday+Script&display=swap');
+
+:root {
+    --primary-color: #96ff03;
+    --background-blur: rgba(77, 77, 77, 0.3);
+    --tomato-color: #ff6868;
+    --white-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #000000;
+}
+
+/* navigation style */
+.nav {
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #222;
+}
+
+.nav__svg {
+    width: 10px;
+}
+
+.nav__logo {
+    width: 190px;
+}
+
+.nav__unordered {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 38px;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav__list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.nav__inform {
+    padding: 2px 5px;
+    border-radius: 6px;
+    background-color: var(--tomato-color);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.nav__button {
+    background-color: #1a1a1a;
+    color: var(--primary-color);
+    font-weight: 700;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+}
+/* end nav */
+
+/* footer */
+footer{
+    margin-inline: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+footer > .footer-col1, .footer-col2{
+    padding-right: 46px;
+    width: 300px;
+}
+
+.footer-col1 > h3, .footer-col2 > h3, .footer-col3 > h3{
+    color: var(--white-color);
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.footer-col1 > p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 24px;
+}
+
+.footer-col1 > ul, .footer-col2 > ul, .footer-col3 > ul {
+    list-style-type: none;
+}
+
+.footer-col1 > ul > li{
+    color: #eaeaea;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+.footer-col2 > ul > li{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+
+.footer-col2 > ul > li > a {
+    text-decoration: none;
+    color: #9D9D9D;
+}
+
+.footer-col3 > span {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.footer-col3 > span > img {
+    margin-right: 12px;
+}
+
+.footer-col3 > ul > li {
+    color: var(--white-color);
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 12px;
+}
+
+.footer-col3 > ul > li > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+/* end footer */
