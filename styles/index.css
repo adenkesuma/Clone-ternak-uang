@@ -7,19 +7,6 @@
     --white-color: #ffffff;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    background-color: #000000;
-}
-
 svg {
     padding: 2px;
     border-radius: 5px;
@@ -58,6 +45,7 @@ svg {
     color: var(--primary-color);
 }
 
+<<<<<<< HEAD
 /* navigation style */
 .nav {
     z-index: 99999;
@@ -130,6 +118,8 @@ svg {
 }
 
 
+=======
+>>>>>>> 1e625c5ed28ca4f24bfc889ae2fe1553c7b2d14c
 /* header */
 .header {
     display: flex;
@@ -416,6 +406,7 @@ svg {
     font-size: 12px;
     font-weight: 600;
     color: #999;
+<<<<<<< HEAD
 }
 
 /* section card 2 */
@@ -594,4 +585,6 @@ footer > .footer-col1, .footer-col2{
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
+=======
+>>>>>>> 1e625c5ed28ca4f24bfc889ae2fe1553c7b2d14c
 }
