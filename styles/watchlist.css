@@ -47,12 +47,111 @@ body{
 }
 
 .container_watchlist >.row > .col1 {
-    flex: 30%;
+    flex: 20%;
     width: 300px;
+    margin-inline: 22px;
 }
 
 .container_watchlist >.row > .col2{
-    flex: 70%;
+    flex: 80%;
     width: 300px;
+    margin-inline: 22px;
 }
 
+.container_watchlist > .row > .col1 > form > span{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+
+.container_watchlist > .row > .col1 > form > span > h4{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.container_watchlist > .row > .col1 > form > span > input[type=reset]{
+    color: var(--primary-color);
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    border: none;
+}
+
+.container_watchlist > .row > .col1 > form > span > input[type=reset]:hover{
+    cursor: pointer;
+}
+
+.container_watchlist > .row > .col1 > form > .box {
+    width: 280px;
+    height: 239px;
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 12px;
+    padding: 11px 12px;
+}
+
+.container_watchlist > .row > .col1 > form > .box > span {
+    padding-bottom: 11px;
+    display: flex;
+}
+
+.container_watchlist > .row > .col1 > form > .box > span > p{
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.container_watchlist > .row > .col1 > form > .box > .form-control {
+    display: flex;
+    align-items: center;
+    margin: 0px 15px 16px 0px;
+
+}
+
+.container_watchlist > .row > .col1 > form > .box > .form-control > input{
+    background-color: #1a1a1a;
+    padding-right: 4px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.container_watchlist > .row > .col1 > form > .box > .form-control > input:hover{
+    cursor: pointer;
+}
+
+.container_watchlist > .row > .col1 > form > .box > .form-control > input:checked{
+    background-color: var(--primary-color);
+    color: black;
+}
+
+.container_watchlist > .row > .col1 > form > .box > .form-control > label{
+    padding-left: 8px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container_watchlist > .row > .col1 > .disclaimer {
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 30px;
+    width: 50%;
+    background-color: #1a1a1a;
+    margin-inline: auto;
+    margin-top: 15px;
+}
+
+.container_watchlist > .row > .col1 > .disclaimer:hover{
+    cursor: pointer;
+}
