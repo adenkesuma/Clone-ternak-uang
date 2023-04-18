@@ -45,7 +45,6 @@ svg {
     color: var(--primary-color);
 }
 
-<<<<<<< HEAD
 /* navigation style */
 .nav {
     z-index: 99999;
@@ -117,11 +116,8 @@ svg {
     border-radius: 20px;
 }
 
-
-=======
->>>>>>> 1e625c5ed28ca4f24bfc889ae2fe1553c7b2d14c
 /* header */
-.header {
+.header{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,6 +133,7 @@ svg {
 
 .button {
     text-align: center;
+    margin: 0 auto;
     padding: 16px 80px;
     background-color: var(--primary-color);
     color: #222;
@@ -199,6 +196,10 @@ svg {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODMxIiBoZWlnaHQ9IjUyNSIgdmlld0JveD0iMCAwIDgzMSA1MjUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik03MC44NDA3IDE0NC44OTJMMTU1LjQ5NSAxMDUuNTU4QzE1OC45NTYgMTAzLjk0OSAxNjIuOTc2IDEwNC4wODQgMTY2LjMyMiAxMDUuOTE5TDc5NS44MzkgNDUxLjIxNEM4MDYuMjg0IDQ1Ni45NDMgODAyLjkgNDcyLjc0NyA3OTEuMDI0IDQ3My42OTdMMTU5LjgwMiA1MjQuMTc2QzE1My44ODEgNTI0LjY0OSAxNDguNTA0IDUyMC43MiAxNDcuMTU4IDUxNC45MzRMNjQuMjA5NSAxNTguNDk0QzYyLjkyMjEgMTUyLjk2MiA2NS42ODk2IDE0Ny4yODUgNzAuODQwNyAxNDQuODkyWiIgZmlsbD0iIzk2RkMwNCIvPgo8Y2lyY2xlIGN4PSIxMS44NzU0IiBjeT0iMTAxLjQiIHI9IjguNjgxNzEiIHRyYW5zZm9ybT0icm90YXRlKDU5LjcxIDExLjg3NTQgMTAxLjQpIiBmaWxsPSIjRkZEMDYyIi8+CjxyZWN0IHg9IjYyLjkyOTEiIHk9IjQ1LjU4MjciIHdpZHRoPSI0Ny41MjEiIGhlaWdodD0iNDcuNTIxIiByeD0iMTIiIHRyYW5zZm9ybT0icm90YXRlKDE2My41OCA2Mi45MjkxIDQ1LjU4MjcpIiBmaWxsPSIjNzgyM0ZGIi8+Cjwvc3ZnPgo=");
+    background-position: 0% 63%;
+    background-size: 56%;
+    background-repeat: no-repeat;
 }
 
 .video-course__layout {
@@ -210,7 +211,7 @@ svg {
 }
 
 .video-course__main {
-    width: 80%;
+    width: 70%;
 }
 
 .video-course__main video {
@@ -234,6 +235,8 @@ svg {
 
 /* section adv */
 .section-adv {
+    height: 600px;
+    background: url("/assets/images/stockpick-result-bg-ea1c1f27036deefde4896ecb836bb02c.png") left center no-repeat;
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
@@ -406,7 +409,6 @@ svg {
     font-size: 12px;
     font-weight: 600;
     color: #999;
-<<<<<<< HEAD
 }
 
 /* section card 2 */
@@ -585,6 +587,4 @@ footer > .footer-col1, .footer-col2{
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-=======
->>>>>>> 1e625c5ed28ca4f24bfc889ae2fe1553c7b2d14c
 }
