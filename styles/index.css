@@ -9,9 +9,9 @@
 }
 
 svg {
-    padding: 2px;
+    padding: 3px;
     border-radius: 5px;
-    border: 0.5px solid #777;
+    /* border: 0.5px solid #777; */
     background: var(--background-blur);
     font-size: 20px;
 }
@@ -98,7 +98,7 @@ svg {
 }
 
 .pop-up__academy {
-    bottom: -160px;
+    bottom: -158px;
 }
 
 .pop-up__insight span,
@@ -582,6 +582,8 @@ footer > .footer-col1, .footer-col2{
 }
 
 .footer-col1 > ul > li{
+    display: flex;
+    gap: 10px;
     color: #eaeaea;
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
