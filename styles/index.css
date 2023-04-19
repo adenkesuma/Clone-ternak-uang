@@ -3,6 +3,7 @@
 :root {
     --primary-color: #96ff03;
     --background-blur: rgba(77, 77, 77, 0.3);
+    --background-black: #282828;
     --tomato-color: #ff6868;
     --white-color: #ffffff;
 }
@@ -83,14 +84,49 @@ svg {
     gap: 10px;
 }
 
-/* .pop-up {
+/* popup style */
+.pop-up__insight,
+.pop-up__academy {
+    width: 200px;
     display: none;
     position: absolute;
-    bottom: 0;
-    background: var(--background-blur);
-    padding: 10px;
-    border-radius: 5px;
-} */
+    bottom: -130px;
+    background: var(--background-black);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    z-index: 9999;
+}
+
+.pop-up__academy {
+    bottom: -160px;
+}
+
+.pop-up__insight span,
+.pop-up__academy {
+    color: #999;
+    font-size: 14px;
+}
+
+.pop-up__column {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.pop-up__flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.pop-up__flex a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-size: 14px;
+}
 
 .nav__list a {
     color: #fff;
