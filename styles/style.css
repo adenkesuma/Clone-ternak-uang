@@ -3,6 +3,7 @@
 :root {
     --primary-color: #96ff03;
     --background-blur: rgba(77, 77, 77, 0.3);
+    --background-black: #282828;
     --tomato-color: #ff6868;
     --white-color: #ffffff;
 }
@@ -18,6 +19,79 @@ body {
     font-size: 16px;
     font-weight: 500;
     background-color: #000000;
+}
+
+/* navigation style */
+svg {
+    padding: 3px;
+    border-radius: 5px;
+    background: var(--background-blur);
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.left {
+    text-align: left;
+    margin-top: 100px;
+}
+
+.button {
+    text-align: center;
+    margin: 0 auto;
+    padding: 16px 80px;
+    background-color: var(--primary-color);
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 60px;
+}
+
+.button:hover {
+    background-color: var(--primary-color);
+}
+
+.button-join {
+    border: none;
+    padding: 12px 60px;
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.heading-2.left {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.heading-1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.heading-1 span {
+    color: var(--primary-color);
+}
+
+.heading-2 {
+    font-size: 26px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading-2 span {
+    color: var(--primary-color);
 }
 
 /* navigation style */
@@ -58,6 +132,50 @@ body {
     gap: 10px;
 }
 
+/* popup style */
+.pop-up__insight,
+.pop-up__academy {
+    width: 200px;
+    display: none;
+    position: absolute;
+    bottom: -130px;
+    background: var(--background-black);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    z-index: 9999;
+}
+
+.pop-up__academy {
+    bottom: -158px;
+}
+
+.pop-up__insight span,
+.pop-up__academy {
+    color: #999;
+    font-size: 14px;
+}
+
+.pop-up__column {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.pop-up__flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.pop-up__flex a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-size: 14px;
+}
+
 .nav__list a {
     color: #fff;
     text-decoration: none;
@@ -81,7 +199,7 @@ body {
     border: none;
     border-radius: 20px;
 }
-/* end nav */
+
 
 /* footer */
 footer{

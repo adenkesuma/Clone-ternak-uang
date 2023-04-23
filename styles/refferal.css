@@ -1,92 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Blaka&family=Fraunces:opsz,wght@9..144,100;9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=Ibarra+Real+Nova:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=La+Belle+Aurore&family=Luckiest+Guy&family=Montserrat:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+KR:wght@300&family=Nunito:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Press+Start+2P&family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&family=Silkscreen:wght@400;700&family=Smooch&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Ubuntu:wght@300;400;500;700&family=Vujahday+Script&display=swap');
-
-:root {
-    --primary-color: #96ff03;
-    --background-blur: rgba(77, 77, 77, 0.3);
-    --tomato-color: #ff6868;
-    --white-color: #ffffff;
-}
-
-svg {
-    padding: 2px;
-    border-radius: 5px;
-    border: 0.5px solid #777;
-    background: var(--background-blur);
-    font-size: 20px;
-}
-
-.heading-2.left {
-    text-align: left;
-    margin-bottom: 40px;
-}
-
-.heading-1 {
-    font-size: 35px;
-    font-weight: 800;
-    color: #fff;
-    text-align: center;
-    margin-top: 200px;
-    margin-bottom: 20px;
-}
-
-.heading-1 span {
-    color: var(--primary-color);
-}
-
-.heading-2 {
-    font-size: 26px;
-    font-weight: 800;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.heading-2 span {
-    color: var(--primary-color);
-}
-
 /* header */
 .header {
+    padding: 100px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.head_back{
-    /* background-image: url(/assets/images/bg-hero-section-765ba835ddf2381b265f066e9b7b2011.png); */
+.header__title {
+    width: 50%;
+    padding-left: 30px;
+    background: url("../assets/images/bg-hero-section-765ba835ddf2381b265f066e9b7b2011.png");
+    background-size: 580px;
+    background-position: center;
     background-repeat: no-repeat;
-    position: absolute;
-    width: 45%;
-    /* height: 350px; */
-    /* background-size: 10%; */
-    /* top: -80px; */
-    left: 80px;
-    top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-.header__subheader {
-    text-align: center;
-    font-size: 16px;
-    color: #eeeeee;
-    margin-bottom: 60px;
+.header__title h1 {
+    margin-bottom: 70px;
 }
 
-.button {
-    text-align: center;
-    padding: 16px 80px;
-    background-color: var(--primary-color);
-    color: #222;
-    font-size: 16px;
-    font-weight: 600;
-    border: none;
-    border-radius: 30px;
-    margin-bottom: 60px;
+.header__title img {
+    width: 50%;
 }
 
-.button:hover {
-    background-color: var(--primary-color);
+.header__figure img {
+    width: 460px;
 }
+
 
 /* sponsors */
 .sponsors {

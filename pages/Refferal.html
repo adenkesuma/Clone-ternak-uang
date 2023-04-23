@@ -13,20 +13,50 @@
 <body>
     <!-- navbar -->
     <nav class="nav">
-        <figure>
-            <a href="/Index.html"><img class="nav__logo" src="./../assets/logo.png" alt="logo ternak uang" /></a>
-        </figure>
+        <a href="/">
+            <img class="nav__logo" src="../assets/logo.png" alt="logo ternak uang" />
+        </a>
         <ul class="nav__unordered">
             <li class="nav__list">
-                <a href="./../pages/watchlist.html">Watchlist</a>
+                <a href="./pages/watchlist.html">Watchlist</a>
             </li>
-            <li class="nav__list">
+            <li class="nav__list" onmouseover="whenMouseOverI()" onmouseout="whenMouseOutI()">
                 <a href="#">Insight</a>
                 <img class="nav__svg" src="../assets/icons/Dropdown.svg" alt="dropdown">
+                <div class="pop-up__insight">
+                    <span>Insight</span>
+                    <div class="pop-up__column">
+                        <div class="pop-up__flex">
+                            <svg icon="report-icon" width="20" height="20" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.17574 8.17574C8.41005 7.94142 8.78995 7.94142 9.02426 8.17574L10.8243 9.97574C11.0586 10.2101 11.0586 10.5899 10.8243 10.8243C10.5899 11.0586 10.2101 11.0586 9.97574 10.8243L8.17574 9.02426C7.94142 8.78995 7.94142 8.41005 8.17574 8.17574Z" fill="#75F991"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 2.125C3.63604 2.125 2.125 3.63604 2.125 5.5C2.125 7.36396 3.63604 8.875 5.5 8.875C7.36396 8.875 8.875 7.36396 8.875 5.5C8.875 3.63604 7.36396 2.125 5.5 2.125ZM1 5.5C1 3.01472 3.01472 1 5.5 1C7.98528 1 10 3.01472 10 5.5C10 7.98528 7.98528 10 5.5 10C3.01472 10 1 7.98528 1 5.5Z" fill="white"></path></svg>
+                            <a href="#">Report</a>
+                        </div>
+                        <div class="pop-up__flex">
+                            <svg icon="news-icon" width="20" height="20" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_20_66993)"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.62876 2.57143C7.62876 2.80813 7.82064 3.00001 8.05734 3.00001H10.6288V10.7143C10.6288 11.4244 10.0531 12 9.34305 12H2.48591C1.77583 12 1.2002 11.4244 1.2002 10.7143V1.28571C1.2002 0.575633 1.77583 0 2.48591 0H7.62876V2.57143ZM2.91449 4.71428C2.6778 4.71428 2.48592 4.90615 2.48592 5.14285C2.48592 5.37954 2.6778 5.57142 2.91449 5.57142H6.34306C6.57976 5.57142 6.77163 5.37954 6.77163 5.14285C6.77163 4.90615 6.57976 4.71428 6.34306 4.71428H2.91449ZM2.48592 6.85712C2.48592 6.62043 2.6778 6.42855 2.91449 6.42855H6.34306C6.57976 6.42855 6.77163 6.62043 6.77163 6.85712C6.77163 7.09382 6.57976 7.28569 6.34306 7.28569H2.91449C2.6778 7.28569 2.48592 7.09382 2.48592 6.85712ZM2.91449 8.14283C2.6778 8.14283 2.48592 8.3347 2.48592 8.5714C2.48592 8.80809 2.6778 8.99997 2.91449 8.99997H4.62878C4.86547 8.99997 5.05735 8.80809 5.05735 8.5714C5.05735 8.3347 4.86547 8.14283 4.62878 8.14283H2.91449Z" fill="white" fill-opacity="0.88"></path><path d="M8.05762 0.00012207V2.57155H10.6291L8.05762 0.00012207Z" fill="#75F991"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M7.5982 -1.10857C8.04661 -1.29431 8.56275 -1.19164 8.90594 -0.848449L11.4774 1.72298C11.8206 2.06617 11.9233 2.58232 11.7375 3.03073C11.5518 3.47914 11.1142 3.77151 10.6289 3.77151H8.05742C7.39468 3.77151 6.85742 3.23425 6.85742 2.57151V8.36849e-05C6.85742 -0.48527 7.14979 -0.922832 7.5982 -1.10857ZM8.05742 2.57151V8.36849e-05L10.6289 2.57151H8.05742Z" fill="#383838"></path></g><defs><clipPath id="clip0_20_66993"><rect width="12" height="12" fill="white"></rect></clipPath></defs></svg>
+                            <a href="#">News</a>
+                        </div>
+                    </div>
+                </div>
             </li>
-            <li class="nav__list">
+            <li class="nav__list" onmouseover="whenMouseOverA()" onmouseout="whenMouseOutA()">
                 <a href="#">Academy</a>
                 <img class="nav__svg" src="../assets/icons/Dropdown.svg" alt="dropdown">
+                <div class="pop-up__academy">
+                    <span>Academy</span>
+                    <div class="pop-up__column">
+                        <div class="pop-up__flex">
+                            <svg icon="module-icon" width="20" height="20" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.2463 8.82263V5.09021L10.5432 5.32458V8.82263C10.1059 8.96984 9.79004 9.3834 9.79004 9.86961L9.79004 10.2552C9.79004 10.4494 9.94745 10.6068 10.1416 10.6068H11.6478C11.842 10.6068 11.9994 10.4494 11.9994 10.2552V9.86961C11.9994 9.3834 11.6835 8.96984 11.2463 8.82263Z" fill="#75F991"></path><path d="M5.66699 6.72826L2.25977 5.59253V7.98704C2.25977 8.0803 2.29682 8.16972 2.36275 8.23565C3.33452 9.20729 4.62646 9.74242 6.00056 9.74242C7.37467 9.74242 8.6665 9.20729 9.63806 8.2356C9.70399 8.16967 9.74102 8.08026 9.74102 7.98704V5.59253L6.33391 6.72824C6.10101 6.80579 5.86656 6.79476 5.66699 6.72826Z" fill="white" fill-opacity="0.88"></path><path d="M6 6.07918C6.03755 6.07918 6.07509 6.07315 6.11116 6.06113L11.7596 4.17833C11.9032 4.13047 12 3.99612 12 3.84481C12 3.6935 11.9032 3.55916 11.7596 3.5113L6.11116 1.62849C6.03902 1.60447 5.96098 1.60447 5.88884 1.62849L0.240398 3.5113C0.0968203 3.55913 0 3.69348 0 3.84481C0 3.99615 0.0968203 4.13047 0.240398 4.17833L5.88884 6.06113C5.92491 6.07315 5.96245 6.07918 6 6.07918Z" fill="white" fill-opacity="0.88"></path></svg>
+                            <a href="#">Modul</a>
+                        </div>
+                        <div class="pop-up__flex">
+                            <svg icon="news-icon" width="20" height="20" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_20_66993)"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.62876 2.57143C7.62876 2.80813 7.82064 3.00001 8.05734 3.00001H10.6288V10.7143C10.6288 11.4244 10.0531 12 9.34305 12H2.48591C1.77583 12 1.2002 11.4244 1.2002 10.7143V1.28571C1.2002 0.575633 1.77583 0 2.48591 0H7.62876V2.57143ZM2.91449 4.71428C2.6778 4.71428 2.48592 4.90615 2.48592 5.14285C2.48592 5.37954 2.6778 5.57142 2.91449 5.57142H6.34306C6.57976 5.57142 6.77163 5.37954 6.77163 5.14285C6.77163 4.90615 6.57976 4.71428 6.34306 4.71428H2.91449ZM2.48592 6.85712C2.48592 6.62043 2.6778 6.42855 2.91449 6.42855H6.34306C6.57976 6.42855 6.77163 6.62043 6.77163 6.85712C6.77163 7.09382 6.57976 7.28569 6.34306 7.28569H2.91449C2.6778 7.28569 2.48592 7.09382 2.48592 6.85712ZM2.91449 8.14283C2.6778 8.14283 2.48592 8.3347 2.48592 8.5714C2.48592 8.80809 2.6778 8.99997 2.91449 8.99997H4.62878C4.86547 8.99997 5.05735 8.80809 5.05735 8.5714C5.05735 8.3347 4.86547 8.14283 4.62878 8.14283H2.91449Z" fill="white" fill-opacity="0.88"></path><path d="M8.05762 0.00012207V2.57155H10.6291L8.05762 0.00012207Z" fill="#75F991"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M7.5982 -1.10857C8.04661 -1.29431 8.56275 -1.19164 8.90594 -0.848449L11.4774 1.72298C11.8206 2.06617 11.9233 2.58232 11.7375 3.03073C11.5518 3.47914 11.1142 3.77151 10.6289 3.77151H8.05742C7.39468 3.77151 6.85742 3.23425 6.85742 2.57151V8.36849e-05C6.85742 -0.48527 7.14979 -0.922832 7.5982 -1.10857ZM8.05742 2.57151V8.36849e-05L10.6289 2.57151H8.05742Z" fill="#383838"></path></g><defs><clipPath id="clip0_20_66993"><rect width="12" height="12" fill="white"></rect></clipPath></defs></svg>
+                            <a href="#">Event</a>
+                        </div>
+                        <div class="pop-up__flex">
+                            <svg icon="record-icon" width="20" height="20" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="6" cy="6" r="4.5" stroke="#E7E7E7"></circle><circle cx="6" cy="6" r="2" fill="#75F991"></circle></svg>
+                            <a href="#">Recording kelas</a>
+                        </div>
+                    </div>
+                </div>
             </li>
             <li class="nav__list">
                 <a href="#">Alpha Club</a>
@@ -43,64 +73,19 @@
 
     <!-- heading -->
     <header class="header">
-        <h1 class="heading-1">
-            STRATEGI <span>BERTAHAN</span> SECARA <span>FINANSIAL</span><br> DAN <span>INVESTASI</span> DALAM SEGALA KONDISI
-        </h1>
-        <p class="header__subheader">“Be fearful when others are greedy, and be greedy when others are fearful.” - Warren Buffet</p>
-        <button class="button" type="button">Jadi Member</button>
-        <img class="head_back" src="./../assets/images/bg-hero-section-765ba835ddf2381b265f066e9b7b2011.png" alt="hero image" />
+        <div class="header__title">
+            <h1 class="heading-1 left">
+                AJAK TEMAN KAMU<br> BELAJAR &<br> DAPATKAN HINGGA <br><span>JUTAAN RUPIAH</span>
+            </h1>
+            <button class="button-join" type="button">Join Now</button>
+        </div>
+        <figure class="header__figure">
+            <img src="../assets/images/hero.webp" alt="hero">
+        </figure>
     </header>
-    <section>
-        <div>
-            <div class="hQbJPx">
-                <h2 class="lhfFkJ">
-                    Hadiah sampai <span style="color: #96fc04;">jutaan rupiah</span> tanpa batas maksimal
-                </h2>
-                <p class="ECwVp">Berikut tabel pendapatan kamu per 1 orang yang membeli membership menggunakan kode referral kamu</p>
-                <div class="knmLXp">
-                    <div class="dvJURC">
-                        <div class="lmkBEz">
-                            <div class="style__ReferralCommissionRow-sc-9tm7ti-4 glUPEu">
-                                <div class="cWDPrh">Jenis Membership</div>
-                                <div class="cWDPrh">Komisi yang Kamu Dapatkan</div>
-                                <div class="cWDPrh">Harga Membership Setelah Dipotong</div>
-                            </div>
-                        </div>
-                        <div class="jOiWmj">
-                            <div class="glUPEu">
-                                <div class="cWDPrh">TU Premium 12 Bulan</div>
-                                <div class="cWDPrh">Rp. 200.000</div>
-                                <div class="cWDPrh">Rp. 2.037.450</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <div class="referral__CaraGabungSection-sc-5j0ln-12 guVjnX">
-            <div class="referral__CaraGabungContainer-sc-5j0ln-13 kabTqb">
-                <h1 id="cara-gabung__title" class="style__Header-sc-1c7wbys-0 referral__SHeader-sc-5j0ln-5 haiNOG kfZiqu">CARA BERGABUNG</h1>
-                <div class="dlkyie">
-                    <div>
-                        <img src="/assets/images/cara-gabung-1-4f7885de3bf975e1b4ca656c819ada1c.png" width="250" alt="Cara Gabung Step 1" class="referral__Img-sc-5j0ln-2 bUBmAx"/>
-                    </div>
-                    <div>
-                        <img src="/assets/images/cara-gabung-2-7092d77e66656fa59653a7c51ac08bbf.png" width="250" alt="Cara Gabung Step 1" class="referral__Img-sc-5j0ln-2 bUBmAx"/>
-                    </div>
-                    <div>
-                        <img src="/assets/images/cara-gabung-2-7092d77e66656fa59653a7c51ac08bbf.png" width="250" alt="Cara Gabung Step 1" class="referral__Img-sc-5j0ln-2 bUBmAx"/>
-                    </div>
-                </div>
-                <div class="referral__CaraGabungStepRow-sc-5j0ln-16 cJZdbV">
-                    <div class="referral__CaraGabungStep-sc-5j0ln-15 jEIsfs">Lengkapi Data &amp;Customize Kode Referral Kamu</div>
-                    <div class="referral__CaraGabungStep-sc-5j0ln-15 jEIsfs">Berikan Temanmu Diskon 15% untuk Belajar Finansial di Ternak Uang</div>
-                    <div class="referral__CaraGabungStep-sc-5j0ln-15 jEIsfs">Dapatkan Komisi Dari Setiap Transaksi Yang Berhasil</div>
-                </div>
-            </div>
-        </div>
-        <div class="join_bg">
-            <img src="/assets/images/bg-join-human-c41d34f5fc26379b414eb600b44b1e46.png" alt="" class="join_bg2">
-        </div>
-    </section>
+
+
+    
     <!-- footer -->
     <footer>
         <div class="footer-col1">
@@ -155,6 +140,10 @@
             </ul>
         </div>
     </footer>
+
+
+    <!-- connect with javascript -->
+    <script src="../models/index.js"></script>
 </body>
 <script src="/assets/icons/js/all.min.js"></script>
 </html>
