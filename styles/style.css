@@ -29,6 +29,12 @@ svg {
     font-size: 20px;
 }
 
+.no-background {
+    font-size: 30px;
+    background: none;
+    color: var(--white-color);
+}
+
 .center {
     text-align: center;
     margin-top: 200px;
