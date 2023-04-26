@@ -209,10 +209,10 @@ svg {
 
 /* footer */
 footer{
-    margin-inline: 150px;
+    margin-inline: 120px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 footer > .footer-col1, .footer-col2{
